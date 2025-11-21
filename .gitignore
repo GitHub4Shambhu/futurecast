@@ -1,33 +1,45 @@
-# Python
+# Python artifacts
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 *$py.class
 *.so
 .Python
+
+# Virtual environments
 venv/
+.venv/
 ENV/
+
+# Environment / secrets
 .env
+*.env
 
 # Distribution / packaging
 dist/
 build/
 *.egg-info/
 
-# PyCharm
+# IDE / editor files
 .idea/
-
-# VS Code
 .vscode/
 
-# Jupyter Notebook
+# Notebooks
 .ipynb_checkpoints
 
-# Model files
-*.h5
-*.pkl
-
-# Matplotlib
-.DS_Store
+# Local data outputs
+data/
+*.db
+*.sqlite
 
 # Cache files
 .cache/
+
+# Model artifacts
+*.h5
+*.pkl
+
+# OS files
+.DS_Store
+
